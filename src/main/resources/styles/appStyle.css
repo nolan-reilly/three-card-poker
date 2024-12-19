@@ -1,0 +1,79 @@
+.start-title {
+    -fx-font-weight: bolder;
+    -fx-background-color: #162C39;
+    -fx-padding: 12px 24px;
+	-fx-background-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(25, 25, 25, 0.75), 3, 0.2, 0, 2);
+}
+
+.sidebar {
+	-fx-padding: 16;
+	-fx-background-color: #213743;
+}
+
+.label {
+	-fx-text-fill: #B1BAD3;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-font-weight: bold;
+    -fx-background-color: #0F212E;
+    -fx-text-fill: white;
+    -fx-border-color: #2F4553;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(25, 25, 25, 0.75), 3, 0.2, 0, 2);
+}
+
+.game-label {
+	-fx-font-size: 28px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #8690A4;
+	-fx-background-color: #162C39;
+	-fx-background-radius: 8px;
+	-fx-padding: 6px 32px;
+	-fx-effect: dropshadow(gaussian, rgba(25, 25, 25, 0.75), 3, 0.2, 0, 2);
+}
+
+.btn {
+	-fx-background-color: #283E4B;
+	-fx-text-fill: white;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+	-fx-background-radius: 6px;
+	-fx-effect: dropshadow(gaussian, rgba(25, 25, 25, 0.75), 3, 0.2, 0, 2);
+}
+
+.btn:hover {
+    -fx-background-color: #3C5063;
+}
+
+.play-btn {
+	-fx-background-color: #00E701;
+	-fx-text-fill: 	#0D080A;
+	-fx-background-radius: 6px;
+	-fx-font-size: 16px;
+	-fx-font-weight: bolder;
+}
+
+.play-btn:hover {
+    -fx-background-color: #33F735;
+}
+
+/* CSS for the Quit Button */
+.quit-btn {
+    -fx-background-color: #E70100;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 6px;
+    -fx-font-size: 16px;
+    -fx-font-weight: bolder;
+}
+
+.quit-btn:hover {
+    -fx-background-color: #F73533;
+}

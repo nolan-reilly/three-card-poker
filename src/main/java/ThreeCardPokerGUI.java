@@ -27,7 +27,7 @@ import javafx.scene.media.AudioClip;
 import javafx.scene.text.TextAlignment;
 import javafx.scene.layout.Region;
 
-public class JavaFXTemplate extends Application {
+public class ThreeCardPokerGUI extends Application {
 	private Stage primaryStage;
 	private Scene startScene;
     private Scene gameScene;
